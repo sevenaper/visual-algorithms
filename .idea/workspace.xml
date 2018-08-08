@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="391605d5-155f-433a-96c5-86b5add02456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="391605d5-155f-433a-96c5-86b5add02456" name="Default Changelist" comment="visual algorithms">
+      <change afterPath="$PROJECT_DIR$/Sort/4.Quick Sort/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/4.Quick Sort/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/4.Quick Sort/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/4.Quick Sort/QuickSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/5.Two ways Quick Sort/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/5.Two ways Quick Sort/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/5.Two ways Quick Sort/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/5.Two ways Quick Sort/TwoWaysQuickSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/6.Three ways Quick Sort/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/6.Three ways Quick Sort/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/6.Three ways Quick Sort/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/6.Three ways Quick Sort/ThreeWaysQuickSortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgoVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeapSortData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,40 +31,42 @@
     <session id="-266151857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="53" />
+          <entry key="java" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="26" />
-          <entry key="java" value="6720" />
+          <entry key="dummy" value="55" />
+          <entry key="java" value="8489" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6720" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="JAVA" value="8489" />
+          <entry key="PLAIN_TEXT" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -58,7 +75,39 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HeapSortData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-385">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AlgoVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlgoFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,9 +143,15 @@
         <option value="$PROJECT_DIR$/src/MontyHallExperiment.java" />
         <option value="$PROJECT_DIR$/src/WinningPrize.java" />
         <option value="$PROJECT_DIR$/src/SelectionSortData.java" />
-        <option value="$PROJECT_DIR$/src/AlgoFrame.java" />
         <option value="$PROJECT_DIR$/src/InsertionSortData.java" />
+        <option value="$PROJECT_DIR$/Sort/2.Insertion Sort/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/MergeSortData.java" />
+        <option value="$PROJECT_DIR$/src/QuickSortData.java" />
+        <option value="$PROJECT_DIR$/src/TwoWaysQuickSortData.java" />
+        <option value="$PROJECT_DIR$/src/ThreeWaysQuickSortData.java" />
+        <option value="$PROJECT_DIR$/src/HeapSortData.java" />
         <option value="$PROJECT_DIR$/src/AlgoVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/AlgoFrame.java" />
       </list>
     </option>
   </component>
@@ -106,7 +161,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -131,6 +186,16 @@
             <path>
               <item name="algorithms GUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms GUI" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -144,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533654322739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533716197412" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -154,16 +219,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\src" />
-      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\src\shareMoney" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Sort\3.Merge  Sort" />
       <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Sort\2.Insertion Sort" />
       <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Sort\1.Slection Sort" />
       <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Probability\6.WiningPrize" />
       <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Probability" />
-      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Probability\Monty Hall" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Sort\6.Three ways Quick Sort" />
+      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Sort\5.Two way Quick Sort" />
+      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\Sort\4.Quick Sort" />
+      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\src" />
+      <recent name="C:\Users\aper\IdeaProjects\algorithms GUI\src\shareMoney" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,12 +322,21 @@
       <workItem from="1533612785952" duration="5661000" />
       <workItem from="1533630656061" duration="1213000" />
       <workItem from="1533646413902" duration="618000" />
-      <workItem from="1533652105931" duration="2215000" />
+      <workItem from="1533652105931" duration="4814000" />
+      <workItem from="1533702058219" duration="6135000" />
     </task>
+    <task id="LOCAL-00001" summary="visual algorithms">
+      <created>1533656269277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533656269277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18512000" />
+    <option name="totallyTimeSpent" value="27246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,9 +348,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,11 +365,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,6 +386,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="visual algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="visual algorithms" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/JPanel.java">
@@ -441,13 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sort/2.Insertion Sort/AlgoFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="75" column="65" lean-forward="true" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sort/1.Slection Sort/SelectionSortData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -572,8 +640,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sort/2.Insertion Sort/InsertionSortData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="196">
+          <caret line="9" column="17" lean-forward="true" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/2.Insertion Sort/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="76" column="13" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/3.Merge  Sort/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/3.Merge  Sort/MergeSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/3.Merge  Sort/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="91" selection-end-column="13" />
+          <folding>
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#2294#2295#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/4.Quick Sort/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/5.Two ways Quick Sort/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgoVisHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/6.Three ways Quick Sort/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSortData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
