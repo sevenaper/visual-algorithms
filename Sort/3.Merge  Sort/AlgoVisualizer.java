@@ -1,23 +1,20 @@
 import java.awt.*;
 import java.util.Arrays;
 
-public class AlgoVisualizer
-{
+public class AlgoVisualizer {
 
     private static int DELAY = 40;
 
     private MergeSortData data;
     private AlgoFrame frame;
 
-    public AlgoVisualizer(int sceneWidth, int sceneHeight, int N)
-    {
+    public AlgoVisualizer(int sceneWidth, int sceneHeight, int N) {
 
         // 初始化数据
         data = new MergeSortData(N, sceneHeight);
 
         // 初始化视图
-        EventQueue.invokeLater(() ->
-        {
+        EventQueue.invokeLater(() -> {
             frame = new AlgoFrame("Merge Sort Visualization", sceneWidth, sceneHeight);
 
             new Thread(() ->
@@ -27,8 +24,7 @@ public class AlgoVisualizer
         });
     }
 
-    public void run()
-    {
+    public void run() {
 
         setData(-1, -1, -1);
 
@@ -40,30 +36,28 @@ public class AlgoVisualizer
         this.setData(0, data.N() - 1, data.N() - 1);
     }
 
-    private void merge(int l, int mid, int r)
-    {
+    private void merge(int l, int mid, int r) {
 
         int[] aux = Arrays.copyOfRange(data.numbers, l, r + 1);
 
         // 初始化，i指向左半部分的起始索引位置l；j指向右半部分起始索引位置mid+1
         int i = l, j = mid + 1;
-        for (int k = l; k <= r; k++)
-        {
+        for (int k = l; k <= r; k++) {
 
-            if (i > mid)
-            {  // 如果左半部分元素已经全部处理完毕
+            if (i > mid) {
+                // 如果左半部分元素已经全部处理完毕
                 data.numbers[k] = aux[j - l];
                 j++;
-            } else if (j > r)
-            {   // 如果右半部分元素已经全部处理完毕
+            } else if (j > r) {
+                // 如果右半部分元素已经全部处理完毕
                 data.numbers[k] = aux[i - l];
                 i++;
-            } else if (aux[i - l] < aux[j - l])
-            {  // 左半部分所指元素 < 右半部分所指元素
+            } else if (aux[i - l] < aux[j - l]) {
+                // 左半部分所指元素 < 右半部分所指元素
                 data.numbers[k] = aux[i - l];
                 i++;
-            } else
-            {  // 左半部分所指元素 >= 右半部分所指元素
+            } else {
+                // 左半部分所指元素 >= 右半部分所指元素
                 data.numbers[k] = aux[j - l];
                 j++;
             }
@@ -72,8 +66,7 @@ public class AlgoVisualizer
         }
     }
 
-    private void setData(int l, int r, int mergeIndex)
-    {
+    private void setData(int l, int r, int mergeIndex) {
         data.l = l;
         data.r = r;
         data.mergeIndex = mergeIndex;
@@ -82,8 +75,7 @@ public class AlgoVisualizer
         AlgoVisHelper.pause(DELAY);
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         int sceneWidth = 800;
         int sceneHeight = 800;

@@ -7,9 +7,9 @@ public class AlgoVisualizer {
 
     private MazeData data;
     private AlgoFrame frame;
-    private static final int d[][] = {{-1,0},{0,1},{1,0},{0,-1}};
+    private static final int d[][] = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
-    public AlgoVisualizer(int N, int M){
+    public AlgoVisualizer(int N, int M) {
 
         // 初始化数据
         data = new MazeData(N, M);
@@ -26,26 +26,26 @@ public class AlgoVisualizer {
         });
     }
 
-    private void run(){
+    private void run() {
 
         setData(-1, -1);
 
         RandomQueue<Position> queue = new RandomQueue<Position>();
-        Position first = new Position(data.getEntranceX(), data.getEntranceY()+1);
+        Position first = new Position(data.getEntranceX(), data.getEntranceY() + 1);
         queue.add(first);
         data.visited[first.getX()][first.getY()] = true;
         data.openMist(first.getX(), first.getY());
 
-        while(queue.size() != 0){
+        while (queue.size() != 0) {
             Position curPos = queue.remove();
 
-            for(int i = 0 ; i < 4  ; i ++){
-                int newX = curPos.getX() + d[i][0]*2;
-                int newY = curPos.getY() + d[i][1]*2;
+            for (int i = 0 ; i < 4  ; i ++) {
+                int newX = curPos.getX() + d[i][0] * 2;
+                int newY = curPos.getY() + d[i][1] * 2;
 
-                if(data.inArea(newX, newY)
+                if (data.inArea(newX, newY)
                         && !data.visited[newX][newY]
-                        && data.maze[newX][newY] == MazeData.ROAD){
+                        && data.maze[newX][newY] == MazeData.ROAD) {
                     queue.add(new Position(newX, newY));
                     data.visited[newX][newY] = true;
                     data.openMist(newX, newY);
@@ -57,8 +57,8 @@ public class AlgoVisualizer {
         setData(-1, -1);
     }
 
-    private void setData(int x, int y){
-        if(data.inArea(x, y))
+    private void setData(int x, int y) {
+        if (data.inArea(x, y))
             data.maze[x][y] = MazeData.ROAD;
 
 
